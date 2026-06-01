@@ -17,8 +17,8 @@ int main()
     }
     //kondisi jika throw bertipe data selain interger
     catch (...) 
-{
-cout << "default pengecualian diekseskusi" << endl;
-}
+    {
+        cout << "default pengecualian diekseskusi" << endl;
+    }
     return 0;
 }
