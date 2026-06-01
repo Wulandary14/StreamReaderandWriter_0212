@@ -3,8 +3,10 @@
 #include <array>
 using namespace std;
 
+
 int main()
 {
+    
     cout << "Awal program" << endl; //penanda 1
     try
     {
@@ -19,6 +21,7 @@ int main()
 
         cout << e.what() << endl;
     }
-    
+    cout << "Baris program terakhir" << endl; //penanda 2
+    return 0;
 
 }
